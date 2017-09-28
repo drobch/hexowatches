@@ -1,0 +1,10 @@
+body {
+    text-align: center;
+    font-family: fantasy;
+    margin-top: 200px; 
+}
+
+#clock {
+    font-weight: 300;
+    font-size: 120px;
+}
