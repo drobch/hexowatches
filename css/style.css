@@ -1,6 +1,3 @@
-* {
-    background-color: wheat;
-}
 body {
     letter-spacing: 2px;
     font-family: fantasy;
@@ -8,8 +5,8 @@ body {
     color: wheat;
     margin: 200px auto;
     width: 100%;
-    background-repeat: no-repeat;
-    background-attachment: scroll;
+    background-repeat: no-repeat; 
+    background-color: wheat;
 }
 
 #day {
