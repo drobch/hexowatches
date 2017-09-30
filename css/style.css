@@ -4,11 +4,10 @@ body {
     font-family: fantasy;
     text-align: center;
     color: wheat;
-    margin: 5em auto;
+    margin: 9em auto;
     height: 100%;
     width: 100%;
-    background-repeat: no-repeat;
-    background-attachment: scroll;
+    background-repeat: no-repeat; 
     background-color: wheat;
    
 }
@@ -24,7 +23,7 @@ body {
     letter-spacing: 0.2em;
     text-align: center;
     font-weight: 300;
-    font-size: 9em;
+    font-size: 8.7em;
 }
 
 #color {
