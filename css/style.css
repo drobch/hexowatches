@@ -13,7 +13,8 @@ body {
 }
 
 #clock { 
-    border: 1px solid wheat; 
+    border-top: 1px solid wheat; 
+    border-bottom: 1px solid wheat;  
     letter-spacing: 10px;
     text-align: center;
     font-weight: 300;
