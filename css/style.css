@@ -1,38 +1,64 @@
- 
+
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC');
+
 body {
-    letter-spacing: 2px;
-    font-family: fantasy;
-    text-align: center;
+    position: relative;
+    background: no-repeat center fixed;
+    font-family: 'Amatic SC', cursive;
+    font-weight: 700;
+    font-size: 5vw ;
     color: wheat;
-    margin: 9em auto;
-    height: 100%;
-    width: 100%;
-    background-repeat: no-repeat; 
-    background-color: wheat;
-   
+    margin: 0;
 }
-
-#day {
-    text-align: center;
-    font-size: 2.7em; 
-    padding-bottom: 0.5em;
-}
-
 .content {
- margin-top: 3em;
-}
-
-#clock { 
- 
-    border: 1px solid wheat;  
-    letter-spacing: 0.2em;
+    background-repeat: no-repeat;
     text-align: center;
-    font-weight: 300;
-    font-size: 8.7em;
-}
+    margin-top: 2em;
+    text-shadow: 2px 2px 2px #282e34;
 
-#color {
-    text-align: center;
-    font-size: 1.7em;
     letter-spacing: 2px;
+}
+
+#clock {
+    border: 1px dashed wheat;
+    letter-spacing: 0.2em;
+}
+#day {
+    font-size: 1em;
+}
+#color {
+    font-size: 0.7em;
+}
+
+.foo {
+    display: inline;
+}
+
+@media (max-width: 721px) {
+    body {
+        overflow: hidden;
+
+    }
+    .content {
+    }
+    #clock {
+        font-size: 2.5em ;
+
+    }
+    #day {
+        font-size: 1.5em ;
+        margin: auto 1em;
+    }
+
+    .content {
+        font-size: 40px;
+    }
+
+}
+@media (max-width: 400px) {
+
+    #clock {
+        font-size: 1.7em ;
+    }
+
 }
