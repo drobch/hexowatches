@@ -1,6 +1,7 @@
 var clock = document.getElementById('clock');
 var color = document.getElementById('color');
 var day = document.getElementById('day');
+var icons = document.getElementsByClassName('fa');
 
 
 function hexoClock() {
@@ -37,6 +38,11 @@ function hexoClock() {
     
     document.body.style.background = grad;
     day.style.color = colorString;
+
+    for(var i = 0; i < icons.length; i++) {
+        icons[i].style.color = colorString;
+    }
+
 }
 
 hexoClock();
