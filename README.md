@@ -1,4 +1,4 @@
 #Hexowatches
-https://drobch.github.io/parallex/
+https://drobch.github.io/hexowatches
 #
 ![Parallex](sreenshot.png)
